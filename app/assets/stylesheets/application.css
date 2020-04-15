@@ -10,9 +10,7 @@
  *
  * Removed formtastic CSS to prevent bootstrap screw-up
  *
- *= require bootstrap.min
- *= require bootstrap-default-theme
- *= require yeti
+ *= require theme
  *= require_self
  *= require font-awesome
  */
@@ -26,34 +24,8 @@ body {
   text-decoration: none;
 }
 
-/* http://rvg.me/2013/11/using-bootstrap-3-with-rails-4/ */
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../assets/glyphicons-halflings-regular.eot');
-  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-       url('../assets/glyphicons-halflings-regular.woff') format('woff'),
-       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
-       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-
 #main-content {
   min-height: 450px;
-}
-
-.red {
-  color: #d9534f;
-}
-
-.blue {
-  color: #428bca;
-}
-
-.green {
-  color: #5cb85c;
-}
-
-.orange {
-  color: #f0ad4e;
 }
 
 .text-justify {

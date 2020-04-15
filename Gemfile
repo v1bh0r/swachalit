@@ -8,8 +8,6 @@ gem 'rails', '~> 4.2'
 group :development, :test do
   gem 'sqlite3', '~> 1.3.6'
 
-  # From assets group
-  gem 'sassc-rails'
   gem 'coffee-rails', '>= 4.0'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
@@ -59,10 +57,13 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-oauth2'
 gem 'cancan'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'bootswatch-rails'
+gem 'sassc-rails', '>= 2.1.0'
 gem 'font-awesome-rails'
 gem 'activeadmin', '~> 1.0'
 # meta_search is superseeded by ransack
-#gem 'meta_search', '~> 1.0' 
+#gem 'meta_search', '~> 1.0'
 gem 'ransack', '~> 1.8'
 gem 'audited-activerecord', '~> 4.0'
 gem 'country_select'

@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootswatch/yeti/variables";
+@import "bootstrap";
+@import "bootswatch/yeti/bootswatch";
+
+.red {
+  color: #d9534f;
+}
+
+.blue {
+  color: #428bca;
+}
+
+.green {
+  color: #5cb85c;
+}
+
+.orange {
+  color: #f0ad4e;
+}
